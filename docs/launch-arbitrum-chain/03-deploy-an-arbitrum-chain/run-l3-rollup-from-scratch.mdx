@@ -310,7 +310,6 @@ async function main() {
       rollupOwner: rollupOwner.address,
     },
     parentChainPublicClient,
-    chainPublicClient,
     account: rollupOwner.address,
   });
 
@@ -335,7 +334,6 @@ async function main() {
   const setWethTxRequest = await createTokenBridgePrepareSetWethGatewayTransactionRequest({
     rollup: coreContracts.rollup,
     parentChainPublicClient,
-    chainPublicClient,
     account: rollupOwner.address,
   });
   const setWethTxHash = await parentChainPublicClient.sendRawTransaction({
