@@ -61,7 +61,7 @@
     "dotenv": "^17.0.1",
     "ethers": "6.16.0",
     "got": "11.8.5",
-    "marked": "^15.0.7",
+    "marked": "^18.0.3",
     "mermaid": "^11.14.0",
     "posthog-docusaurus": "^2.0.0",
     "posthog-js": "^1.369.2",
